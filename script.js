@@ -97,7 +97,7 @@
 //var i = 3;
 
 //do {
- // i--;
+// i--;
 //} while (i >= 1)
 
 //console.log("FIM");
@@ -106,20 +106,33 @@
 
 //Questão 7
 
-let idade = 70
+//let idade = 70
 
-function verificarIdade (idade) {
-    if (idade < 18) {
-        console.log ("Menor de idade")
-    }
-    else if (idade >= 18 && idade < 60) {
-        console.log ("Maior de idade")
-    }
-    else if (idade >= 60) {
-        console.log ("Idoso")
-    }
-}
+//function verificarIdade (idade) {
+//if (idade < 18) {
+//  console.log ("Menor de idade")
+//}
+// else if (idade >= 18 && idade < 60) {
+//console.log ("Maior de idade")
+//}
+// else if (idade >= 60) {
+//console.log ("Idoso")
+//}
+//}
 //
 //verificarIdade (idade)
 
 //------------------------------
+
+//Questão 8
+
+let temSenhaCorreta = true
+let temBiometriaAutenticada = false
+let acessoPermitido = true
+
+if (temSenhaCorreta || temBiometriaAutenticada == true) {
+  console.log(acessoPermitido)
+}
+else {
+  console.log(!acessoPermitido)
+}
