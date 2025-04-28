@@ -141,13 +141,27 @@
 
 //Questão 9
 
-let tarefas = "Trabalho,Academia,Estudar,Bar,Dormir"
-let tarefasArray = tarefas.split(",")
-let tarefasFormatadas = tarefasArray.join(" | ")
-let contemEstudar = tarefasArray.includes("Estudar");
+//let tarefas = "Trabalho,Academia,Estudar,Bar,Dormir"
+//let tarefasArray = tarefas.split(",")
+//let tarefasFormatadas = tarefasArray.join(" | ")
+//let contemEstudar = tarefasArray.includes("Estudar");
+//
+//console.log("Array de tarefas:", tarefasArray);
+//console.log("Tarefas formatadas:", tarefasFormatadas);
+//console.log("Contém 'Estudar'?", contemEstudar);
 
-console.log("Array de tarefas:", tarefasArray);
-console.log("Tarefas formatadas:", tarefasFormatadas);
-console.log("Contém 'Estudar'?", contemEstudar);
+//------------------------------
+
+//Questão 10
+
+function calcularAreaAleatoria() {
+    const raio = Math.random() * (15 - 5) + 5
+    const area = Math.PI * Math.pow(raio, 2)
+
+    console.log(`Raio: ${raio}`)
+    console.log(`Área do círculo: ${area.toFixed(2)}`)
+  }
+
+calcularAreaAleatoria()
 
 //------------------------------
