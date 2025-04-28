@@ -94,12 +94,32 @@
 
 //Questão 6
 
-var i = 3;
+//var i = 3;
 
-do {
-  i--;
-} while (i >= 1)
+//do {
+ // i--;
+//} while (i >= 1)
 
-console.log("FIM");
+//console.log("FIM");
+
+//------------------------------
+
+//Questão 7
+
+let idade = 70
+
+function verificarIdade (idade) {
+    if (idade < 18) {
+        console.log ("Menor de idade")
+    }
+    else if (idade >= 18 && idade < 60) {
+        console.log ("Maior de idade")
+    }
+    else if (idade >= 60) {
+        console.log ("Idoso")
+    }
+}
+//
+//verificarIdade (idade)
 
 //------------------------------
