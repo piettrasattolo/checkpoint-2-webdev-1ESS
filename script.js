@@ -74,6 +74,20 @@
 
 //Questão 4
 
-for (var i = 0; i <= 9; i++){
-    console.log(i)
+//for (var i = 0; i <= 9; i++){
+//    console.log(i)
+//}
+
+//------------------------------
+
+//Questão 5
+
+var i = 1;
+var total = 0;
+
+while (i <= 5) {
+  total += i;
+  i++;
 }
+
+console.log("A soma dos números de 1 a 5 é igual a:", total);
