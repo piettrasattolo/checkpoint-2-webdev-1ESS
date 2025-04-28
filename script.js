@@ -82,12 +82,24 @@
 
 //Questão 5
 
-var i = 1;
-var total = 0;
+//var i = 1;
+//var total = 0;
 
-while (i <= 5) {
-  total += i;
-  i++;
-}
+//while (i <= 5) {
+//total += i;
+//i++;
+//}
 
-console.log("A soma dos números de 1 a 5 é igual a:", total);
+//console.log("A soma dos números de 1 a 5 é igual a:", total);
+
+//Questão 6
+
+var i = 3;
+
+do {
+  i--;
+} while (i >= 1)
+
+console.log("FIM");
+
+//------------------------------
