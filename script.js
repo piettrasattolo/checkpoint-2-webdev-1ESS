@@ -126,13 +126,28 @@
 
 //Questão 8
 
-let temSenhaCorreta = true
-let temBiometriaAutenticada = false
-let acessoPermitido = true
+//let temSenhaCorreta = true
+//let temBiometriaAutenticada = false
+//let acessoPermitido = true
+//
+//if (temSenhaCorreta || temBiometriaAutenticada == true) {
+//  console.log(acessoPermitido)
+//}
+//else {
+//  console.log(!acessoPermitido)
+//}
 
-if (temSenhaCorreta || temBiometriaAutenticada == true) {
-  console.log(acessoPermitido)
-}
-else {
-  console.log(!acessoPermitido)
-}
+//------------------------------
+
+//Questão 9
+
+let tarefas = "Trabalho,Academia,Estudar,Bar,Dormir"
+let tarefasArray = tarefas.split(",")
+let tarefasFormatadas = tarefasArray.join(" | ")
+let contemEstudar = tarefasArray.includes("Estudar");
+
+console.log("Array de tarefas:", tarefasArray);
+console.log("Tarefas formatadas:", tarefasFormatadas);
+console.log("Contém 'Estudar'?", contemEstudar);
+
+//------------------------------
