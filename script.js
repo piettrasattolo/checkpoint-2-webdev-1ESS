@@ -1,167 +1,182 @@
-//Questão 1
+// Questão 1
 
-//var tarefaConcluida = false;
-//
-//if (tarefaConcluida === true) {
-//  console.log("A tarefa está concluída!");
-//
-//} else {
-//  console.log("A tarefa não foi concluída.");
-//}
+var tarefaConcluida = false;
 
-//------------------------------
+if (tarefaConcluida === true) {
+  console.log("A tarefa está concluída!");
+} else {
+  console.log("A tarefa não foi concluída.");
+}
 
-//Questão 2
+// [OK]
 
-//var prioridade = 2;
-//
-//if (prioridade === 1) {
-//  console.log("Prioridade Baixa");
-//
-//} else if (prioridade === 2) {
-//  console.log("Prioridade Média");
-//
-//} else if (prioridade === 3) {
-//  console.log("Prioridade Alta");
-//
-//} else {
-//  console.log("Nenhuma Prioridade");
-//}
+// Questão 2
 
-//------------------------------
+var prioridade = 2;
 
-//Questão 3
+if (prioridade === 1) {
+  console.log("Prioridade Baixa");
+} else if (prioridade === 2) {
+  console.log("Prioridade Média");
+} else if (prioridade === 3) {
+  console.log("Prioridade Alta");
+} else {
+  console.log("Nenhuma Prioridade");
+}
 
-//let diaSemana = new Date("04-20-2025").getDay();
-//
-//console.log(diaSemana);
-//
-//switch (diaSemana) {
-//  case 0:
-//    console.log("Domingo");
-//    break;
-//
-//  case 1:
-//    console.log("Segunda-feira");
-//    break;
-//
-//  case 2:
-//    console.log("Terça-feira");
-//    break;
-//
-//  case 3:
-//    console.log("Quarta-feira");
-//    break;
-//
-//  case 4:
-//    console.log("Quinta-feira");
-//    break;
-//
-//  case 5:
-//    console.log("Sexta-feira");
-//    break;
-//
-//  case 6:
-//    console.log("Sábado");
-//    break;
-//
-//  default:
-//    console.log("Dia Inválido");
-//    break;
-//}
+// [OK]
 
-//------------------------------
+// Questão 3
 
-//Questão 4
+let diaSemana = new Date("04-20-2025").getDay();
 
-//for (var i = 0; i <= 9; i++){
-//    console.log(i)
-//}
+console.log(diaSemana);
 
-//------------------------------
+switch (diaSemana) {
+  case 0:
+    console.log("Domingo");
+    break;
+  case 1:
+    console.log("Segunda-feira");
+    break;
+  case 2:
+    console.log("Terça-feira");
+    break;
+  case 3:
+    console.log("Quarta-feira");
+    break;
+  case 4:
+    console.log("Quinta-feira");
+    break;
+  case 5:
+    console.log("Sexta-feira");
+    break;
+  case 6:
+    console.log("Sábado");
+    break;
+  default:
+    console.log("Dia Inválido");
+    break;
+}
 
-//Questão 5
+// [OK]
 
-//var i = 1;
-//var total = 0;
+// Questão 4
 
-//while (i <= 5) {
-//total += i;
-//i++;
-//}
+for (var i = 0; i <= 9; i++) {
+  console.log(i);
+}
 
-//console.log("A soma dos números de 1 a 5 é igual a:", total);
+// [OK]
 
-//Questão 6
+// Questão 5
 
-//var i = 3;
+var i = 1;
+var total = 0;
 
-//do {
-// i--;
-//} while (i >= 1)
+while (i <= 5) {
+  total += i;
+  i++;
+}
 
-//console.log("FIM");
+console.log("A soma dos números de 1 a 5 é igual a:", total);
 
-//------------------------------
+// [OK]
 
-//Questão 7
+// Questão 6
 
-//let idade = 70
+var i = 3;
 
-//function verificarIdade (idade) {
-//if (idade < 18) {
-//  console.log ("Menor de idade")
-//}
-// else if (idade >= 18 && idade < 60) {
-//console.log ("Maior de idade")
-//}
-// else if (idade >= 60) {
-//console.log ("Idoso")
-//}
-//}
-//
-//verificarIdade (idade)
+do {
+  i--;
+} while (i >= 1);
 
-//------------------------------
+console.log("FIM");
 
-//Questão 8
+// Comentário: O valor 3 não é exibido antes do decremento.
+// Implementação correta:
+// var j = 3;
+// do {
+//   console.log(j);
+//   j--;
+// } while (j >= 1);
+// console.log("FIM");
 
-//let temSenhaCorreta = true
-//let temBiometriaAutenticada = false
-//let acessoPermitido = true
-//
-//if (temSenhaCorreta || temBiometriaAutenticada == true) {
-//  console.log(acessoPermitido)
-//}
-//else {
-//  console.log(!acessoPermitido)
-//}
+// [Parcialmente correto]
 
-//------------------------------
+// Questão 7
 
-//Questão 9
+let idade = 70;
 
-//let tarefas = "Trabalho,Academia,Estudar,Bar,Dormir"
-//let tarefasArray = tarefas.split(",")
-//let tarefasFormatadas = tarefasArray.join(" | ")
-//let contemEstudar = tarefasArray.includes("Estudar");
-//
-//console.log("Array de tarefas:", tarefasArray);
-//console.log("Tarefas formatadas:", tarefasFormatadas);
-//console.log("Contém 'Estudar'?", contemEstudar);
+function verificarIdade(idade) {
+  if (idade < 18) {
+    console.log("Menor de idade");
+  } else if (idade >= 18 && idade < 60) {
+    console.log("Maior de idade");
+  } else if (idade >= 60) {
+    console.log("Idoso");
+  }
+}
 
-//------------------------------
+verificarIdade(idade);
 
-//Questão 10
+// [OK]
+
+// Questão 8
+
+let temSenhaCorreta = true;
+let temBiometriaAutenticada = false;
+let acessoPermitido = true;
+
+if (temSenhaCorreta || temBiometriaAutenticada == true) {
+  console.log(acessoPermitido);
+} else {
+  console.log(!acessoPermitido);
+}
+
+// Comentário: A variável `acessoPermitido` deveria depender da condição,
+// mas foi definida como `true` diretamente. A lógica funciona, mas não está correta.
+// Implementação ideal:
+// let acesso = temSenhaCorreta || temBiometriaAutenticada;
+// console.log("Acesso permitido?", acesso);
+// console.log("Acesso negado?", !acesso);
+
+// [Parcialmente correto]
+
+// Questão 9
+
+let tarefas = "Trabalho,Academia,Estudar,Bar,Dormir";
+let tarefasArray = tarefas.split(",");
+let tarefasFormatadas = tarefasArray.join(" | ");
+let contemEstudar = tarefasArray.includes("Estudar");
+
+console.log("Array de tarefas:", tarefasArray);
+console.log("Tarefas formatadas:", tarefasFormatadas);
+console.log("Contém 'Estudar'?", contemEstudar);
+
+// [OK]
+
+// Questão 10
 
 function calcularAreaAleatoria() {
-    const raio = Math.random() * (15 - 5) + 5
-    const area = Math.PI * Math.pow(raio, 2)
+  const raio = Math.random() * (15 - 5) + 5;
+  const area = Math.PI * Math.pow(raio, 2);
 
-    console.log(`Raio: ${raio}`)
-    console.log(`Área do círculo: ${area.toFixed(2)}`)
-  }
+  console.log(`Raio: ${raio}`);
+  console.log(`Área do círculo: ${area.toFixed(2)}`);
+}
 
-calcularAreaAleatoria()
+calcularAreaAleatoria();
 
-//------------------------------
+// Comentário: A função está correta, mas o valor do raio deveria ser um número inteiro.
+// Implementação ideal:
+// function calcularAreaCorreta() {
+//   const raio = Math.floor(Math.random() * (15 - 5 + 1)) + 5;
+//   const area = Math.PI * Math.pow(raio, 2);
+//   console.log(`Raio inteiro: ${raio}`);
+//   console.log(`Área correta: ${area.toFixed(2)}`);
+// }
+
+// calcularAreaCorreta();
+
+// [Parcialmente correto]
